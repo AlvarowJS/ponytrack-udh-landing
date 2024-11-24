@@ -80,6 +80,16 @@ const App = () => {
 
         </div>
       </section>
+
+      <section id="download" className="bg-light py-5">
+        <div className="container text-center">
+          <h2 className="mb-4">Politicas de privacidad</h2>
+          <p className="lead">Descarga aqui las politicas de privacidad</p>
+          <a href="/politicas-privacidad.pdf" className="btn btn-dark btn-lg m-2">
+          <i class='bx bxs-download' ></i>politicas de privacidad</a>
+
+        </div>
+      </section>
       <footer>
         <p>&copy; 2024 Ponytrack UDH | Todos los derechos reservados</p>
         <p>Contacto: jalvarojs123@gmail.com</p>
