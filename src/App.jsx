@@ -37,15 +37,21 @@ const App = () => {
         <div className="container text-center">
           <h2 className="mb-4">Características de la App</h2>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-4">
               <div className="feature-icon mb-3">
                 <i className="bi bi-bus-front"></i>
               </div>
               <h4>Rastreo en tiempo real</h4>
               <p>Consulta la ubicación exacta de tu bus en todo momento.</p>
             </div>
-
-            <div className="col-md-6">
+            <div className="col-md-4">
+              <div className="feature-icon mb-3">
+                <i className="bi bi-bus-front"></i>
+              </div>
+              <h4>Exclusivo</h4>
+              <p>Esta app es exclusiva para los estudiantes de la Universidad de Huánuco que tengan acceso a su correo institucional udh.edu.pe</p>
+            </div>
+            <div className="col-md-4">
               <div className="feature-icon mb-3">
                 <i className="bi bi-geo-alt"></i>
               </div>
@@ -69,7 +75,7 @@ const App = () => {
       <section id="download" className="bg-light py-5">
         <div className="container text-center">
           <h2 className="mb-4">Elimina tu cuenta</h2>
-          <p className="lead">Envia una foto de tu carnet estudiantil al siguiente correo y nos contactaremos contigo para eliminar tu registro en nuestra base de datos</p>
+          <p className="lead">Envia una foto de tu carnet estudiantil al siguiente correo y nos contactaremos contigo para eliminar su registro de nuestra base de datos</p>
           <a href="#" className="btn btn-dark btn-lg m-2">jalvarojs123@gmail.com</a>
 
         </div>
