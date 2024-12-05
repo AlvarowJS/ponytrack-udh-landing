@@ -30,7 +30,7 @@ const Tester = () => {
 
     return (
         <Box sx={{ marginTop: 20, textAlign: 'center' }}>
-            <Typography variant='h1' sx={{ marginX: 3, marginBottom: 3 }}>¡Unete y se parte de los primeros usuarios!</Typography>
+            <Typography variant='h1' sx={{ marginX: 3, marginBottom: 3 }}>¡Únete y sé parte de los primeros usuarios!</Typography>
             <Box sx={{
 
                 display: "flex",
@@ -42,9 +42,9 @@ const Tester = () => {
             }}>
                 <Box sx={{ textAlign: 'left', width: 440 }}>
 
-                    <Typography variant='h2'>Ingresa los siguientes datos y luego descarga la app de prueba cerrada, no olvides regitrarte con tu cuenta institucional y aceptar los permisos que solicita la aplicación</Typography>
-                    <Typography variant='h2'>Una vez registrado en unos días podra decargar la aplicación en modo prueba</Typography>
-                    <Button onClick={descargarAndroid}>Descargar app prueba</Button>
+                    <Typography variant='h2'>Ingresa los siguientes datos y luego descarga la app de prueba cerrada. No olvides registrarte con tu cuenta institucional y aceptar los permisos que solicita la aplicación.</Typography>
+                    <Typography variant='h2' my={2}>Una vez registrado, en unos días podrás descargar la aplicación en modo prueba.</Typography>
+                    <Button onClick={descargarAndroid}>Descargar la app prueba</Button>
                 </Box>
                 <Box sx={{ textAlign: 'left' }}>
                     <form>

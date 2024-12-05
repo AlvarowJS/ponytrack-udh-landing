@@ -54,8 +54,7 @@ const Caracteristicas = () => {
                         fontSize: 20
                     }}>Exclusivo 👨🏼‍🎓</Typography>
                     <Typography>
-                        Esta app es exclusiva para los estudiantes de la Universidad de Huánuco que tengan acceso a su correo institucional
-                        <b>udh.edu.pe</b>
+                    Esta app es exclusiva para los estudiantes de la Universidad de Huánuco que tengan acceso a su correo institucional <b>(@udh.edu.pe)</b>.                        
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={6} md={3}

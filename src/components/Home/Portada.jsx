@@ -52,12 +52,13 @@ const Portada = () => {
 
                     <Box sx={{ backgroundColor: '#424649', color: 'white', borderRadius: 2, padding: 1 }}>
                         <Typography>
-                            <i class='bx bxl-play-store'></i> App store
+
+                            <i class='bx bxl-apple' ></i> App store
                         </Typography>
                     </Box>
                     <Box sx={{ backgroundColor: '#424649', color: 'white', borderRadius: 2, padding: 1 }}>
                         <Typography>
-                            <i class='bx bxl-apple' ></i> Play Store
+                            <i class='bx bxl-play-store'></i> Play Store
                         </Typography>
                     </Box>
                 </Box>
