@@ -40,15 +40,17 @@ const Portada = () => {
                 }}>
                     ✅ Solo para estudiantes de la UDH
                 </Typography>
-
+                <Typography
+                 sx={{ fontWeight: 'bold', marginY: 2}}
+                 >
+                    Pronto para:
+                </Typography>
                 <Box sx={{
                     display: 'flex',
                     gap: 2,
                     marginTop: 2
                 }}>
-                    <Typography>
-                        Pronto para:
-                    </Typography>
+
 
                     <Box sx={{ backgroundColor: '#424649', color: 'white', borderRadius: 2, padding: 1 }}>
                         <Typography>
