@@ -52,13 +52,13 @@ const Portada = () => {
                 }}>
 
 
-                    <Box sx={{ backgroundColor: '#424649', color: 'white', borderRadius: 2, padding: 1 }}>
+                    <Box sx={{ backgroundColor: '#424649', color: 'white', borderRadius: 2, padding: 1, height: 60, alignContent: 'center' }}>
                         <Typography>
 
                             <i class='bx bxl-apple' ></i> App store
                         </Typography>
                     </Box>
-                    <Box sx={{ backgroundColor: '#424649', color: 'white', borderRadius: 2, padding: 1 }}>
+                    <Box sx={{ backgroundColor: '#424649', color: 'white', borderRadius: 2, padding: 1, height: 60, alignContent: 'center' }}>
                         <Typography>
                             <i class='bx bxl-play-store'></i> Play Store
                         </Typography>
@@ -71,7 +71,7 @@ const Portada = () => {
                     // borderRadius: '16px',
                     // boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)',
                     // overflow: 'hidden',
-                    width: '300px',
+                    width: '650px',
                     // height: '360px',
                     display: { xs: 'none', md: 'inline-block' },
                 }}
@@ -82,8 +82,8 @@ const Portada = () => {
                         display: 'block',
                         width: '100%',
                         height: 'auto',
-                        boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)',
-                        borderRadius: '16px',
+                        // boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)',
+                        // borderRadius: '16px',
                     }}
                 />
             </Box>

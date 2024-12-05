@@ -3,7 +3,7 @@ import React from 'react'
 
 const Caracteristicas = () => {
     return (
-        <Box sx={{ textAlign: 'center' }}>
+        <Box sx={{ textAlign: 'center', marginTop: 10 }}>
             <Typography
                 sx={{
                     fontSize: 30,
@@ -18,7 +18,7 @@ const Caracteristicas = () => {
                     alignItems: 'center',
                     justifyContent: 'center',
                     textAlign: 'center',
-                    // marginX: 2,
+                    // marginX: 2,                    
                     paddingX: 2,
                     marginY: 3
                 }}
@@ -28,7 +28,8 @@ const Caracteristicas = () => {
                     sx={{
                         backgroundColor: '#B3FC9A',
                         borderRadius: 4,
-
+                        height: 200,
+                        alignContent: 'center',
                         padding: 2
                     }}
                 >
@@ -44,6 +45,8 @@ const Caracteristicas = () => {
                     sx={{
                         backgroundColor: '#B3FC9A',
                         borderRadius: 4,
+                        height: 200,
+                        alignContent: 'center',
                         marginX: 2,
                         marginY: 2,
                         padding: 2
@@ -61,8 +64,9 @@ const Caracteristicas = () => {
                     sx={{
                         backgroundColor: '#B3FC9A',
                         borderRadius: 4,
-
-                        padding: 2
+                        height: 200,
+                        padding: 2,
+                        alignContent: 'center'
                     }}>
                     <Typography sx={{
                         fontWeight: 'bold',

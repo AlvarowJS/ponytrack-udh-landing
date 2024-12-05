@@ -3,7 +3,7 @@ import { Box, Button, Grid, Typography } from '@mui/material'
 
 const Politicas = () => {
     return (
-        <Box sx={{ textAlign: 'center' }}>
+        <Box sx={{ textAlign: 'center', marginTop: 15 }}>
             <Typography
                 sx={{
                     fontSize: 30,
